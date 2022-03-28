@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+
+body{
+   margin: 2vw; 
+}
+.outputDisplay{
+    border-radius: 5px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 1vw;
+    border: 2px solid black;
+    min-height: 10vh;
+}

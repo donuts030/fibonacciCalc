@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fibonacci calculator</title>
+        <meta name="description" content="a Fibbonacci calculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <h1>Fibonacci Calculator</h1>
+        <form>
+            <label id="lenOfSeqLabel">Length: </label>
+            <input id="lenOfSeq" type="number"/>
+            <input id="submit" type="button" value="calculate fibonacci sequence" onclick="submitHandler()">
+        </form>
+        <div class="outputDisplay" id="output">
+            <h3>Output: </h3>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
